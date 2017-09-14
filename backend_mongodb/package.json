@@ -8,11 +8,11 @@
     "test": "test"
   },
   "scripts": {
-      "start": "nodemon lib/server.js",
-      "startapp": "node lib/expressappserver.js",
-      "start-db": "mkdir -p ./db && mongod --dbpath ./db",
-      "stop-db": "killall mongod",
-      "test": "mocha"
+    "start": "nodemon lib/server.js",
+    "startapp": "node lib/expressappserver.js",
+    "start-db": "mkdir -p ./db && mongod --dbpath ./db",
+    "stop-db": "killall mongod",
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",

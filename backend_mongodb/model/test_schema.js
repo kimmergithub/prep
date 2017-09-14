@@ -12,7 +12,7 @@ const car = new Schema({
 const saleReport = new Schema({
   person: {type: String, require: true},
   saleAmount: {type: Number, require: true},
-  car: {car}
+  vehicle: {car}
 })
 
-module.exports = mongoose.model('Sales', saleReport);
+module.exports = mongoose.model('sales', saleReport);

@@ -11,7 +11,7 @@ describe('Saving Sales Report', function(){
     const exampleRecord = new Entry({
       person: 'Jacob Black',
       saleAmount: 17000,
-      car: {make: 'chevy', model: 'sonic', year: 2017}
+      vehicle: {make: 'chevy', model: 'sonic', year: 2017}
     });
 
     exampleRecord.save().then(function(){
